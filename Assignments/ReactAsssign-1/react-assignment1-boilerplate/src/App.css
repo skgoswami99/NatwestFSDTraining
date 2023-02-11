@@ -1,0 +1,13 @@
+.row-header{
+  height: 10vh;
+  width: 100vw;
+}
+.row-main{
+  height: 80vh;
+  width: 100vw;
+}
+.row-footer{
+  height: 10vh;
+  width: 100vw;
+}
+

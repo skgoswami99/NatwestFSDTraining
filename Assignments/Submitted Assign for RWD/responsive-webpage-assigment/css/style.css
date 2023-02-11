@@ -1,0 +1,50 @@
+.topnav
+{
+    background-color: darkgreen;
+    }
+
+.toptext
+{
+    color: white !important;
+}
+
+.nav-item
+{margin-left: 1em;}
+
+.persmargin
+{margin-left: 11em;}
+
+.ctext
+{
+    color: gold !important;
+    background-color: darkgreen;
+    font-weight: bold;
+            
+}
+
+
+.navbar-brand img
+{
+    height: 5vh;
+}
+
+.nav-item
+{font-size: 1em;}
+
+.c-img
+{
+    width: 100%;
+    height: auto;
+}
+
+.prodimg
+{ height: 220px !important;
+        
+}
+
+.foottext
+{
+    color: gold;
+    font-size: smaller !important;
+
+}
