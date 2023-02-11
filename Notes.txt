@@ -1,0 +1,15 @@
+Git Steps for Cloning and Pushing
+
+git clone git remote set-url origin https://gitlab.stackroute.in/AnnuS/natwgitdemo.git
+Step 1: git init
+Step 2: git add .
+if it is reinitialized
+Step 3: 
+git remote set-url origin https://gitlab.stackroute.in/AnnuS/natwgitdemo.git
+if it is initialized
+Step 3: 
+git remote add origin https://gitlab.stackroute.in/AnnuS/natwgitdemo.git
+Step 4: git commit -m "First Upload"
+Step 5: git push -u origin master
+
+Git Commands file :- https://about.gitlab.com/images/press/git-cheat-sheet.pdf

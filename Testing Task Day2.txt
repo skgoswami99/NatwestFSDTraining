@@ -1,0 +1,27 @@
+Day-2 Task2
+
+List out at least 5 Browsers for windows.
+1.) Microsoft Edge 2) Google Chrome 3) FireFox 4) Brave 5) IE
+
+Try to find out drivers of it
+https://www.selenium.dev/documentation/webdriver/browsers/
+https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+
+Run any  2 basic Programs of JAVA(Any two)
+
+1.) public static void main(String[] args) {
+		System.out.println("Hello java");
+		
+		int num1 = 10;
+		int num2 = 20;
+		
+		int sum = num1 + num2;
+		System.out.println(sum);
+	}
+
+2.) public static void main(String[] args) {
+		String str = "This is a test String"
+		System.out.println(str);
+		
+	
+	}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test JS</title>
+
+    <style>
+
+        .butt
+        {
+            background-color: red;
+            margin-left: 5em;
+        }
+    </style>
+</head>
+<body>
+   
+    Enter First number
+    <br>
+    <input type="text" id="num1">
+    <br>
+    <br>
+    Enter second number
+    <br>
+    <input type="text" id="num2">
+    <br>
+    <br>
+    <button class = butt onclick="multiply()">Submit</button>
+
+    <script>
+
+    function multiply()
+    {
+        var a = document.getElementById("num1").value
+        var b = document.getElementById("num2").value
+
+        var Multiplying = parseInt(a) * parseInt (b)    
+
+        document.writeln(Multiplying)
+
+    }
+    </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+Creating the project :
+
+Step 1:- Login to Gitlab site
+Step 2:- Use "Projects" Drop down from the top.
+Step 3:- Select New Project
+Step 4:- Use create blank project
+Step 5:- Enter Project Name
+Step 6:- Add Discription if needed and keep Private button selected.
+Step 7:- Press Create Project button at the bottom
+
+Cloning:-
+
+1.) Create a folder where we need to clone the file.
+2.) Name the folder
+3.) inside the folder press right click and use git bash here to open the prompt.
+4.) put clone commands and once it's done it will create .git file
+
+Pushing the folder:-
+1.) go to the folder where we have .git folder
+2.) move the file that we wish to push within the folder where we have .git file
+3.) Right click and select git bash here to open the prompt
+4.) Right the commands to push a file or folder we need to push.
+5.) once done with the commands refresh the git lab project page to see the file there.

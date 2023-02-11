@@ -1,0 +1,32 @@
+Software Testing-
+1. Explain Any real time scenario with Regression Testing.
+	 Ans:- When Testing team have tested something and sent the feedback to development team to fix any issue or bug, they will work on the development again and fix the issue with the code. 
+	After that the testing team will retest that project again which is the example of regression testing.
+
+2. Go to https://www.saucedemo.com/ Explain SDLC According to Given Link and elaborate testing scenario.
+Ans:- 
+
+There are several phases in the lifecycle of software so before creating this webpage we will think about various steps that are part of
+SDLC which are given below:
+
+Requirement Collection - we will think and decide what is the base requirement of the our software
+Analysis or Feasibility Study will be done for the page. 
+Design Phase to desgign the website.
+Development or coding Phase where the website will be created.
+
+Testing Phase - Once we are done with all above we will go to Testing and we will test the website completely before sending for Installation etc. 
+Deployment & Installation 
+Maintenance Phase
+
+Here we could choose waterfall model of the customer's given requirement are complete and no or minimal changes are expected. 
+
+IN Testing Phase if we are testing the login page then we will Test if the login page is working properly and working as per the expectation. We will do that
+by entering inputs in all the fields to test those fields and also test the login button if that is also submitting the details properly. This will be done 
+multiple times to ensure it's able to handle all the scenarios.
+
+3. Explain any 2 Adhoc Testing scenarios.
+	Ans:	
+   	 1.) Providing inputs to the system that are outside of the valid-inputs range in order to see whether the application's response is adequate.
+    	2.) Login to the application and copy the address after logging in. 
+		After closing the window and browser try to use the copied link and if it doesnt take to login again then it's an error.
+	3.) Click a button too many times quickly to check if it crashes

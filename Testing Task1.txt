@@ -1,0 +1,48 @@
+Day-1
+
+Task -1
+
+
+1.	Write 5 Positive and negative test cases on any application.
+Ans:- Positives (Instagram):-
+	1. Search field must accept the data and find the matching result.
+	2. Image Display size must be 1200 X 1600 px.
+	3. verify the like button is increasing the count by 1 everytime it's clicked.
+	4. share option must have at least 10 options including whatsapp.
+	5. Click on any image must open the image in full size available.
+
+	Negatives:-
+	1. Login Details must not accept any phone number more than 10 digits.
+	2. Share option must not have telegram option.
+	3. Video size should not be more than 250MB.
+	4. Profile image should not be visible to non-followers.
+	5. comment should not accept any abusive words.
+
+2.	Write any 2 real time examples on Adhoc Testing.
+	1.) Providing inputs to the system that are outside of the valid-inputs range in order to see whether the application's response is adequate.
+	2.) Login to the application and copy the address after logging in. After closing the window and browser try to use the copied link and if it doesnt take to login again then it's an error.
+
+3.	Mention when to perform exploratory Testing.
+	Ans :- When there is no requirement document or the document is not understandable or we don't have time to explore the document then we use the exploratory testing.
+
+4.	Write steps how you will perform Functional Testing.
+	Ans :- Identify function that is to be performed.
+		Create input data based on the requirements of function.
+		Determine the output needed from that function.
+		Execute the test case.
+		Compare the actual and expected output.
+(Consider your own Example).
+
+
+Tast-2
+
+1.	List out Different Cross browsing Testing Tools.
+	Ans:- Utilo, IE Tester, Virtuoso, TestGrid, HeadSpin, LambdaTestm Browser-Stack
+
+2.	List out What are different types of software’s are there?
+	Ans:- Mobile Application Softwares, Web Application Softwares, Business Softwares, Banking Softwares. 
+
+3.	Mention on regression testing scenario according to your view.
+	Ans:- When we have tested something and sent the feedback to development team, they will work on the development again and fix the issue with the code. After that the testing team will retest that which is the example of regression testing.
+
+
