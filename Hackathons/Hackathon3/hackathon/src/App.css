@@ -1,0 +1,24 @@
+.foot-sec
+{
+    
+    text-align: center;
+    justify-content: space-around;
+    background-color: #401664;
+    color: azure;
+}
+
+.footlist{
+
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+}
+.subnav{
+    background-color: #401664;
+}
+.prodimg
+{ height: 220px !important;}
+.paratext
+{background-color: peachpuff;}
+.range
+{background-color: #401664;
+color: white;}

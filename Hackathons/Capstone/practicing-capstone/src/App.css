@@ -1,0 +1,49 @@
+.foot-sec
+{
+    
+    text-align: center;
+    justify-content: space-around;
+    background-color: #36454F;
+    color: azure;
+}
+
+.footlist{
+
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+}
+
+.navbar{background-color: #0f2862;}
+.subnav{
+    background-color: #0f2862;
+}
+.prodimg
+{ height: 220px !important;}
+.paratext
+{background-color: peachpuff;}
+.range
+{background-color: #401664;
+color: white;}
+
+.BGLogin
+{background-image: url(./components/images/BG.jpg);
+      background-position: center;
+       
+}
+.BGconver{
+    background-image: url(./components/images/FX.gif);
+    background-size: contain;
+    background-repeat: repeat;
+    
+}
+.logo
+{width: 15vw;
+    
+    margin-right: 2rem;
+}
+.rechargeImg{
+    width: 10vw;    
+}
+
+
+

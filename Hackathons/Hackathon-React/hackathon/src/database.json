@@ -1,0 +1,104 @@
+{
+  "CustDetails": [
+    {
+      "Email": "adi2@gmail.com",
+      "First Name": "Adi",
+      "Last Name": "kumar",
+      "Address": "Delhi",
+      "Account Number": "9898989",
+      "Mobile Number": "9211001111",
+      "Password": "Test@123",
+      "id": 1
+    },
+    {
+      "Email": "sandeep@gmail.com",
+      "First Name": "Sandy",
+      "Last Name": "Kumar",
+      "Address": "Delhi",
+      "Account Number": "8778687",
+      "Mobile Number": "9211002121",
+      "Password": "Test123",
+      "id": 2
+    },
+    {
+      "Email": "skgoswami@1gmail.com",
+      "First Name": "Test",
+      "Last Name": "name",
+      "Address": "Test",
+      "Account Number": "787899",
+      "Mobile Number": "9211334455",
+      "Password": "Test123",
+      "id": 3
+    },
+    {
+      "Email": "skgoswa99@gmail.com",
+      "First Name": "Sandy",
+      "Last Name": "goswami",
+      "Address": "Test",
+      "Account Number": "454545",
+      "Mobile Number": "4564545476",
+      "Password": "Test@123",
+      "id": 4
+    },
+    {
+      "firstname": "sam",
+      "lastname": "kum",
+      "email": "email@gmail.com",
+      "address": "Address",
+      "accountNumber": 87897890,
+      "mobileNumber": 9210101010,
+      "password": "Test@123",
+      "id": 5
+    },
+    {
+      "firstname": "sam",
+      "lastname": "kum",
+      "email": "email@gmail.com",
+      "address": "Address",
+      "accountNumber": 87897890,
+      "mobileNumber": 9210101010,
+      "password": "Test@123",
+      "id": 6
+    },
+    {
+      "firstname": "abc",
+      "lastname": "sdfs",
+      "email": "sfsdsd@gmail.com",
+      "address": "Address",
+      "accountNumber": 343434334,
+      "mobileNumber": 9210101010,
+      "password": "343434353",
+      "id": 7
+    },
+    {
+      "firstname": "abc",
+      "lastname": "sdfs",
+      "email": "sfsdsd@gmail.com",
+      "address": "Address",
+      "accountNumber": 343434334,
+      "mobileNumber": 9210101010,
+      "password": "343434353",
+      "id": 8
+    },
+    {
+      "firstname": "abc",
+      "lastname": "sdfs",
+      "email": "sfsdsd@gmail.com",
+      "address": "Address",
+      "accountNumber": 343434334,
+      "mobileNumber": 9210101010,
+      "password": "343434353",
+      "id": 9
+    },
+    {
+      "firstname": "sam",
+      "lastname": "kum",
+      "email": "email@gmail.com",
+      "address": "Address",
+      "accountNumber": 4454644646,
+      "mobileNumber": 9210101010,
+      "password": "45345fsdfs",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+.services-section{
+    margin-top: 2%;
+}
+
+
+.featured-image {
+    border-radius: var(--border-radius-medium);
+  }
+  .featured-block {
+    padding: 20px;
+  }
+
+  .section-overlay {
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+  }
+  .testimonial-section .section-overlay {
+    opacity: 0.85;
+  }
+  .section-overlay + .container {
+    position: relative;
+  }
+
+  .services-thumb {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius-small);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4px;
+    padding: 3px;
+  }
+  .services-thumb.section-bg {
+    background: var(--section-bg-color);
+  }
+  .services-detail-section .services-image {
+    aspect-ratio: 0;
+  }
+  .services-image-wrap {
+    border-radius: var(--border-radius-small);
+    position: relative;
+    overflow: hidden;
+  }
+  .services-image-wrap:hover .services-image-hover {
+    opacity: 1;
+  }
+  .services-title-link {
+    display: block;
+  }
+  .services-image,
+  .team-image {
+    border-radius: var(--border-radius-small);
+    display: block;
+    aspect-ratio: 1;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+  .services-image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .services-icon-wrap {
+    background: var(--secondary-color);
+    color: var(--white-color);
+    font-size: var(--h3-font-size);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: opacity 0.5s;
+    padding: 8px 12px;
+  }
+  .services-icon-wrap .button--skoll {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+  #Btn-1{
+    background-color: #42145F;
+    color: white;
+}
+
+#dashb{
+  
+  background-size: cover;
+  width: 1200px;
+  height: 350px;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  
+}
+#dash1{
+  font-weight: 700;
+  font-size: x-large;
+  margin-left: 2%;
+}
+#dash2{
+  font-weight: 1000;
+  font-size: x-large;
+  margin-left: 2%;
+}
+#imgd{
+  height: 300px;
+}
