@@ -1,0 +1,7 @@
+package com.java.eight;
+
+@FunctionalInterface
+public interface ITask {
+
+	public void strTask(String str, Integer i);
+}

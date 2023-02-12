@@ -1,0 +1,20 @@
+package com.java.eight;
+
+import java.util.function.Function;
+
+public class TaskImpl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	
+	public static String strChangeCase(String str, int i,ITask<String, Integer> itObj)
+	{
+		return itObj.strTask(str, i);
+	}
+	
+	
+}

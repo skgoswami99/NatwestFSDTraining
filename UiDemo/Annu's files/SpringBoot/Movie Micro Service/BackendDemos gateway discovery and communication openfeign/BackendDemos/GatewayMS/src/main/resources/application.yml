@@ -1,0 +1,22 @@
+server:
+  port: 8756
+  
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+      - id: MovieRouteId
+        uri: http://localhost:8082
+        predicates:
+        - Path=/api/v2/**
+      - id: UserRouteId
+        uri: lb:user-service
+        predicates:
+        - Path=/api/v1/**
+        
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true

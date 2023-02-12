@@ -1,0 +1,25 @@
+package com.java.eight.rfi;
+
+import java.util.function.Function;
+
+public class TaskString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(
+				
+				changeCase("Hello World", str -> str.toLowerCase()));
+		
+		
+	}
+
+	
+	public static String changeCase(String str, Function<String,String> iccstr)
+	{
+		return iccstr.apply(str);
+	}
+	
+	
+	
+}

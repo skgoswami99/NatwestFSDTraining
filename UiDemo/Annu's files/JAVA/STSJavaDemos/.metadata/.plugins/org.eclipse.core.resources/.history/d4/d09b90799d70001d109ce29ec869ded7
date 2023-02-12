@@ -1,0 +1,7 @@
+package com.java.eight.rfi;
+
+@FunctionalInterface
+public interface Predicate<T> 
+{
+	boolean test(T t);
+}

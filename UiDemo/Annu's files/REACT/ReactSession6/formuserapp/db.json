@@ -1,0 +1,22 @@
+{
+  "userdata": [
+    {
+      "firstname": "tim",
+      "lastname": "Kkkkddd",
+      "email": "tim@gmail.com",
+      "phone": "234567",
+      "username": "testuser",
+      "password": "user1",
+      "id": 1
+    },
+    {
+      "firstname": "tim",
+      "lastname": "Kkkkddd",
+      "email": "tim@gmail.com",
+      "phone": "234567",
+      "username": "testuser1",
+      "password": "user1",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+package com.java.eight;
+
+
+// Functional Interface can only have one and only one abstract method
+
+@FunctionalInterface
+public interface IChangeCase<K,V> 
+{
+	public void changeCase(K k, V v);
+}

@@ -1,0 +1,27 @@
+package com.java.eight.rfi;
+
+import java.util.ArrayList;
+
+public class EmpDetails {
+
+	public static void main(String[] args) {
+	
+		ArrayList<Integer> empSal = new ArrayList<Integer>();
+
+		empSal.add(22222);
+		empSal.add(23333);
+		empSal.add(24444);
+		empSal.add(33333);
+		empSal.add(44444);
+		empSal.add(55555);
+		
+		
+		
+	}
+
+	
+	
+	
+	
+	
+}

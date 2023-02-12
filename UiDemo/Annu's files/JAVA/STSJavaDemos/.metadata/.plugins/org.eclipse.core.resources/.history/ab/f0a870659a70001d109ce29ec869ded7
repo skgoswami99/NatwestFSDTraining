@@ -1,0 +1,32 @@
+package com.java.eight.rfi;
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+public class TaskString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(changeCase("Hello World", str -> str.toLowerCase()));
+		
+		System.out.println(subStr("Hello World",6, (str,i) -> str.substring(i)));
+		
+		
+	}
+
+	public static Integer checkLen(String str, Function<String,String> iccstr)
+	{
+		return iccstr.apply(str);
+	}
+	
+	public static String changeCase(String str, Function<String,String> iccstr)
+	{
+		return iccstr.apply(str);
+	}
+	
+	public static String subStr(String str, Integer i, BiFunction<String, Integer, String> iccstr)
+	{
+		return iccstr.apply(str,i);
+	}
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <script src="./index.js">
+
+    </script>
+</head>
+<body>
+
+    Enter first Number:
+    <br>
+    <input type="text"  id="num1">
+    <br>
+    Enter second Number:
+    <br>
+    <input type="text" id="num2">
+    <br>
+    <button onclick="add()">Submit</button>
+
+    <script>
+        function add()
+        {
+            // Fetch the data from the input controls and store inside the n1 as well as n2 variable
+            
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+
+            //converting the data stored in n1 and n2 by using sum and then store the result into sum
+
+            //var sum1 = n1 + n2;
+            
+            var sum2 = parseInt(n1) + parseInt(n2);
+
+            //document.writeln(sum1);
+            
+            document.writeln(sum2);
+            console.log(sum2);
+        }
+    </script>
+
+    <script src="./functions.js">
+
+    </script>
+
+</body>
+</html>

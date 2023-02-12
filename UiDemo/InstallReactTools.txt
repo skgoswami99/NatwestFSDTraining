@@ -1,0 +1,8 @@
+npx create-react-app appname
+npm install react-bootstrap bootstrap
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install axios
+npm install react-router-dom@6
+npm install formik --save
+npm i yup

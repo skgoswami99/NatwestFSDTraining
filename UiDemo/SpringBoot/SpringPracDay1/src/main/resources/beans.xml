@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id = "addObj1" class="com.natwest.Address">
+    <constructor-arg><value>1</value></constructor-arg>
+    <constructor-arg><value>123, street1</value></constructor-arg>
+    <constructor-arg><value>Pune</value></constructor-arg>
+    <constructor-arg><value>India</value></constructor-arg>
+
+</bean>
+
+    <bean id = "addObj2" class="com.natwest.Address">
+        <constructor-arg><value>2</value></constructor-arg>
+        <constructor-arg><value>232, street12</value></constructor-arg>
+        <constructor-arg><value>Bangalore</value></constructor-arg>
+        <constructor-arg><value>India</value></constructor-arg>
+    </bean>
+
+    <bean id = "addObj3" class="com.natwest.Address">
+        <constructor-arg><value>3</value></constructor-arg>
+        <constructor-arg><value>422, st. martin</value></constructor-arg>
+        <constructor-arg><value>Delhi</value></constructor-arg>
+        <constructor-arg><value>India</value></constructor-arg>
+    </bean>
+
+    <bean id="empObj1" class="com.natwest.Employee">
+
+        <constructor-arg index="0" type="int" value="101"/>
+        <constructor-arg index="1" type="String" value="Tim"/>
+        <constructor-arg index="2" type="String" value="tim@gmail.com"/>
+        <constructor-arg index="3" type="String" value="234567"/>
+        <constructor-arg index="4" type="Address" ref="addObj1"/>
+
+    </bean>
+
+</beans>

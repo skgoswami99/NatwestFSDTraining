@@ -1,0 +1,18 @@
+package com.java.eight;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	public static String changeCase(String str, ICCase icc)
+	{
+		return icc.changeCase(str);
+	}
+	
+	
+}
+

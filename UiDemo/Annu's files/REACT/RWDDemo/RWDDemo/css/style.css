@@ -1,0 +1,38 @@
+.navbar-brand img
+{
+    height: 8vh;
+    width: 10vw;
+}
+
+.bg-light
+{
+    background-color: cadetblue !important;
+}
+
+/* .cimage
+{
+    height: 80vh;
+} */
+
+/* .verticalline
+{
+    display: inline;
+    height: 500px;
+    border-left: 2px solid coral;
+} */
+
+.prodimage
+{
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+}
+
+.paratext
+{
+    margin: 15%;
+    font-size: large;
+    font-weight: bold;
+    color: darkcyan;
+    text-justify:distribute-all-lines;
+}

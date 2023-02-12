@@ -1,0 +1,59 @@
+{
+  "StdDetails": [
+    {
+      "First Name": "",
+      "Last Name": "",
+      "Username": "",
+      "Address": "",
+      "Roll Number": "",
+      "Phone Number": "",
+      "Email": "sandy@gmail.com",
+      "Password": "Sandy123",
+      "id": 1
+    },
+    {
+      "First Name": "",
+      "Last Name": "",
+      "Username": "",
+      "Address": "",
+      "Roll Number": "",
+      "Phone Number": "",
+      "Email": "adi2@gmail.com",
+      "Password": "Rbs@132",
+      "id": 2
+    },
+    {
+      "First Name": "sandep",
+      "Last Name": "sdskdjk",
+      "Username": "ksndksd",
+      "Address": "Delhi",
+      "Roll Number": "879809",
+      "Phone Number": "9876565656",
+      "Email": "sadnsjd@gmail.com",
+      "Password": "Test@123",
+      "id": 3
+    },
+    {
+      "First Name": "Test",
+      "Last Name": "Name",
+      "Username": "ksdksn",
+      "Address": "TEST",
+      "Roll Number": "788798",
+      "Phone Number": "7676765454",
+      "Email": "Test@yahoo.in",
+      "Password": "Test6776",
+      "id": 4
+    },
+    {
+      "First Name": "ABC",
+      "Last Name": "EFG",
+      "Username": "abc1",
+      "Address": "delhi",
+      "Roll Number": "98979",
+      "Phone Number": "9898789",
+      "Email": "sdsdfsd@yahoo.in",
+      "Password": "Test@123",
+      "id": 5
+    }
+  ]
+}

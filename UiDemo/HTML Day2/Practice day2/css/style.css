@@ -1,0 +1,168 @@
+body
+{
+margin: 0%;
+}
+
+.header-sec
+{
+    background-color: lightgreen;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border-bottom: 4px solid coral;
+    
+
+}
+
+.nav1 a
+
+{
+padding: 1em;
+color: chocolate;
+text-decoration: none;
+font-size: large;
+
+
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.login button
+{
+    margin: 4px;
+    border-radius: 10%;
+    background-color: gold;
+}
+
+.login button:hover
+{
+    font-size: 101%;
+    
+}
+.head-logo
+{
+    background-color: greenyellow;
+    border-radius: 5%;
+    height: 60px;
+    
+}
+
+.hero
+{
+    background-image: url(/images/herounit.jpg);
+    height: 100vh;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+
+.hero h2
+{
+    margin: 0%;
+    font-size: xx-large;
+    font-style: italic;
+    
+}
+.hero h3
+{
+    padding-top: 33vh;
+    font-size: xx-large;
+    font-style: italic;
+    
+}
+
+.supportline
+{
+text-align: center;
+background-color: hotpink;
+
+}
+
+.articlerow
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+    
+}
+
+.supportline h4
+{   margin: 0%;
+    padding: 1em;
+}
+
+.paper 
+{
+    
+    height: 380px;
+    width: 310px;
+    background-color: darkgreen;
+    border-radius: 15%;
+    border-style: double;
+    text-align: center;
+            
+}
+
+.paper img
+{
+    height: 220px;
+    width: 200px;
+    border-radius: 10%;
+    
+}
+
+h5
+{
+    color: white;
+    font-size: 110%;
+    margin: 6%;
+    
+}
+
+p
+{
+    color: white;
+    font-size: 95%;
+       
+}
+
+.footsec
+{
+    
+    background-color: darkseagreen;
+    height: 30vh;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.legal1
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+.icon
+{
+    font-size:2em;
+}
+
+li
+{
+    color: darkred;
+    list-style: none;}
+    

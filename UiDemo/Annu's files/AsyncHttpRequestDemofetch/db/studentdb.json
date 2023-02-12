@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Tim",
+      "contactno": 333445566,
+      "email": "tim@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Rim",
+      "contactno": 333445566,
+      "email": "rim@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Jam",
+      "contactno": 333445566,
+      "email": "jam@gmail.com"
+    },
+    {
+      "name": "UpdatedName",
+      "contactno": "UpdatedName",
+      "email": "UpdatedName",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "contactno": "234567",
+      "email": "test@gmail.com",
+      "id": 6
+    },
+    {
+      "ame": "wwww",
+      "contactno": "4567",
+      "email": "ww@eee",
+      "id": 7
+    }
+  ]
+}

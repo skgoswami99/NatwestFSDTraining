@@ -1,0 +1,7 @@
+{
+    "users":[
+        {"id":1,"firstname":"Peter","lastname":"Parker","city":"New Delhi","age":"25","email":"Peter@gmail.com","password":"123456"},
+        {"id":2,"firstname":"Tim","lastname":"Parker","city":"Bangalore","age":"24","email":"tim@gmail.com","password":"234567"},
+        {"id":3,"firstname":"Kim","lastname":"peter","city":"Bangalore","age":"22","email":"kim@gmail.com","password":"1234567"},
+        {"id":4,"firstname":"Ram","lastname":"kumar","city":"Gurgaon","age":"22","email":"ram@gmail.com","password":"1234567"}]
+}

@@ -1,0 +1,96 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    network_mode: host
+    container_name: mysqlcontainer
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: keepnote
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_MY_URL: jdbc:mysql://localhost:3306/keepnote?createDatabaseIfNotExist=true&user=root&password=root
+     
+  AuthenticationService:
+     image: authservice
+     #build: AuthenticationService/
+     container_name: authcontainer
+     restart: always
+     network_mode: host
+     depends_on:
+       - mysql
+     ports:
+       - 8082:8082
+     healthcheck:
+       test: "exit 0"
+       
+  NewsService:
+     image: newsservice
+     #build: NewsService/
+     container_name: newscontainer
+     restart: always
+     network_mode: host
+     depends_on:
+       - mongo
+     ports:
+       - 8081:8081
+     healthcheck:
+       test: "exit 0"
+       
+  NewsSourceService:
+     image: newssourceservice
+     #build: NewsSourceService/
+     container_name: newssourcecontainer
+     restart: always
+     network_mode: host
+     depends_on:
+       - mongo
+     ports:
+       - 8083:8083
+     healthcheck:
+       test: "exit 0"
+       
+  UserProfileService:
+     image: userprofileservice
+     #build: UserProfileService/
+     container_name: userprofilecontainer
+     restart: always
+     network_mode: host
+     depends_on:
+       - mongo
+     ports:
+       - 8084:8084
+     healthcheck:
+       test: "exit 0"
+       
+  newz-netflix-eureka-server:
+     image: newseurekaservice
+     #build: UserProfileService/
+     container_name: newseurekacontainer
+     restart: always
+     network_mode: host
+     ports:
+       - 8761:8761
+     healthcheck:
+       test: "exit 0"
+       
+  newz-netflix-zuul-api-gateway:
+     image: newszuulservice
+     #build: UserProfileService/
+     container_name: newszuulcontainer
+     restart: always
+     network_mode: host
+     ports:
+       - 8765:8765
+     healthcheck:
+       test: "exit 0"
+       
+  mongo:
+    image: mongo
+    network_mode: host
+    container_name: mongocontainer
+    ports:
+      - 27017:27017
+    

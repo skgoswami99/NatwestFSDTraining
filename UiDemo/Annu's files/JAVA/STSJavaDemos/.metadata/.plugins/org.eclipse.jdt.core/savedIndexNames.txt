@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\Stackroute Mentoring\NATWest\STSJavaDemos\.metadata\.plugins\org.eclipse.jdt.core
+3050823733.index
+1969863677.index
+1865797976.index
+285019404.index
+696493524.index

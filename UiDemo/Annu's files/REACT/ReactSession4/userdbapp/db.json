@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "fname": "Peter",
+      "lname": "Parker",
+      "city": "New Delhi",
+      "email": "Peter@gmail.com",
+      "phone": "289356823",
+      "id": 1
+    },
+    {
+      "fname": "Tim",
+      "lname": "K",
+      "city": "TestCity",
+      "email": "tim@gmail.com",
+      "phone": "2345678",
+      "id": 2
+    },
+    {
+      "fname": "Rim",
+      "lname": "John",
+      "city": "TestC",
+      "email": "rim@gmail.com",
+      "phone": "234567844",
+      "id": 3
+    }
+  ]
+}

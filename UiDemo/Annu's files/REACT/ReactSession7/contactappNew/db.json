@@ -1,0 +1,12 @@
+{
+  "contacts": [
+    {
+      "firstname": "Peter",
+      "lastname": "Parker",
+      "email": "abc@gmail.com",
+      "city": "New Delhi",
+      "phone": "283658234",
+      "id": 1
+    }
+  ]
+}

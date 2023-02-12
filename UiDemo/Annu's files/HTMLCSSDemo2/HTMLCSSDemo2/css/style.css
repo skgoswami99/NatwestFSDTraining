@@ -1,0 +1,158 @@
+body
+{
+    margin: 0%;
+}
+
+
+.header-sec
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid coral;
+
+    background-color: cadetblue;
+    text-align: center;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+.brand-logo
+{
+    height: 10vh;
+    width: 15vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.brand-logo img
+{
+    height: 10vh;
+    width: 15vw;
+}
+
+.nav-menu ul
+{
+    list-style: none;
+}
+
+.nav-menu ul li
+{
+    display: inline;
+    padding: 1em;
+    border: 1px solid blue;
+}
+
+.nav-menu ul li a
+{
+    text-decoration: none;
+    color:darkred;
+    border-bottom: 1px solid white;
+}
+
+.nav-menu ul li a:hover
+{
+    text-decoration: none;
+    color:blue;
+    font-family: 'Times New Roman';
+    border-bottom: 1px solid black;
+}
+
+.signUp
+{
+    background-color: darkslategray;
+    font-size: 1em;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 60%;
+}
+
+.signUp:hover
+{
+    background-color:darkgray;
+    color: blue;
+ }
+
+ .herounit-sec
+ {
+    background-image: url("/images/herounit.jpg");
+    height: 80vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+ }
+
+ .herounit-mask
+ {
+    height: 80vh;
+    background-color: rgb(23,23 ,23,0.3 );
+ }
+
+ .herounit-mask h2
+ {
+    margin: 0%;
+    padding-top: 35vh;
+ }
+
+ .paperlayout-sec
+ {
+    text-align: center;
+    background-color: darkgoldenrod;
+ }
+ .paperlayout-sec h2
+ {
+    margin: 0%;
+    padding: 1em;
+ }
+
+
+ .paperflex-row
+ {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ .paper
+ {
+    background-color: rgb(23,23 ,23,0.5 );
+    height: 350px;
+    width: 280px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5%;
+
+    box-shadow: 0 0 20px greenyellow;
+ }
+
+ .paper img
+ {
+    height: 180px;
+    width: 130px;
+    border-radius: 5%;
+ }
+
+ .paper h3,p
+ {
+    color: azure;
+ }
+
+
+.footer-sec
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: olivedrab;
+}
+
+.icon
+{
+    font-size:5em;
+}
